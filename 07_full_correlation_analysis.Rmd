@@ -1,0 +1,24 @@
+---
+title: "07.correlations"
+author: "Aurora"
+date: "7/2/2021"
+output: html_document
+---
+
+
+```{r}
+library(forecast)
+```
+
+
+```{r}
+Acf(wineind)
+Pacf(wineind)
+```
+
+```{r}
+require(graphics)
+## Examples from Venables & Ripley
+acf(lh)
+```
+
